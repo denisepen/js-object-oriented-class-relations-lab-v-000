@@ -16,15 +16,6 @@ class Trip{
       this.passengerId = passenger.id
       passenger.tripId = this.id
     }
-
-    // this.passenger = function() {
-    //    return store.passengers.find(function(passenger){
-    //      return  passenger.tripId === this.id
-    //    })
-    //  }
-
-    //  }
-
     store.trips.push(this)
   }
   //   this.driver = function(driver) {
