@@ -70,6 +70,13 @@ class Passenger{
     })
   }
 
+  drivers(){
+    return this.trips().map(trip => {
+      return trip.driver()
+    })
+    }
+}
+
 }
 
 // this.trips = function(){
