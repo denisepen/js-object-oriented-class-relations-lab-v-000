@@ -44,7 +44,7 @@ passenger(){
         }
 
         trips(){
-          return store.trips.find(trip => {
+          return store.trips.filter(trip => {
             return trip.id === this.tripId
           })
         }
