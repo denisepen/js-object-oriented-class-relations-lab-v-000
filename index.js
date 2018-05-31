@@ -22,7 +22,7 @@ class Trip{
     store.trips.push(this)
   }
   this.driver = function(driver) {
-    this.driverId = driver.id
+     driver.id = this.driverId
   }
 
   // this.driver = function() {
