@@ -21,7 +21,7 @@ class Trip{
 
     store.trips.push(this)
   }
-  driver(driver){
+  this.driver = function(driver){
   this.driverId = driver.id
   }
 
