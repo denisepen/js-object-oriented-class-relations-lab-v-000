@@ -56,13 +56,14 @@ class Passenger{
     this.name = name
     store.passengers.push(this)
   }
-  // this.trips = function(){
-  //   return store.trips.filter(function(trip){
-  //     return this.id === trip.passengerId
-  //   })
-  // }
+
 }
 
+// this.trips = function(){
+//   return store.trips.filter(function(trip){
+//     return this.id === trip.passengerId
+//   })
+// }
 
 
 //
