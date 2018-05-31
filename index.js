@@ -78,11 +78,3 @@ class Passenger{
 
 }
 
-// this.trips = function(){
-//   return store.trips.filter(function(trip){
-//     return this.id === trip.passengerId
-//   })
-// }
-
-
-//
