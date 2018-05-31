@@ -19,7 +19,7 @@ class Trip{
     store.trips.push(this)
   }
 
-  this.driver = function(driver){
+  let driver = function(driver){
     return driver
   }
   //   this.driver = function(driver) {
