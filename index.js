@@ -24,7 +24,7 @@ class Trip{
     return this.driver
   }
 
-  passenger(){
+  passenger() {
     return this.passenger
   }
 
