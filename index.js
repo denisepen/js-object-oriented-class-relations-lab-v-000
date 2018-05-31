@@ -42,14 +42,18 @@ passenger(){
     this.name = name
     store.drivers.push(this)
         }
-        // if(trip){
-        //   this.tripId = trip.id}
 
-      trips(){
-        return store.trips.filter(function(trip){
-          return trip.driverId === this.id
-        })
-      }
+        trips(){
+          return store.trips.find(trip => {
+            return trip.id === this.tripId
+          })
+        }
+
+      passenger(){
+        return store.passengers.find(passenger => {
+          return passenger.id === this.passengerId
+          })
+        }
 }
 
 
