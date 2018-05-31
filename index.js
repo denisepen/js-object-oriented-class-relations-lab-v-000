@@ -25,11 +25,11 @@ class Trip{
   this.driverId = driver.id
   }
 
-  this.driver = function() {
-     return store.drivers.find(function(driver){
-       return this.id === driver.trip.id
-     })
-   }
+  // this.driver = function() {
+  //    return store.drivers.find(function(driver){
+  //      return this.id === driver.trip.id
+  //    })
+  //  }
 
 
 }
