@@ -20,7 +20,7 @@ class Trip{
   }
 
   driver(){
-    return driver
+    return this.driver
   }
   //   this.driver = function(driver) {
   //    driver.id = this.driverId
