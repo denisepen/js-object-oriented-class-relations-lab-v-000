@@ -75,7 +75,6 @@ class Passenger{
       return trip.driver()
     })
     }
-}
 
 }
 
