@@ -21,14 +21,11 @@ class Trip{
   }
 
   driver(){
-    return store.drivers.find(driver => {
-      return driver.id === this.driverId
-    })
+    return return this.driver
+  }
 
   passenger(){
-    return store.passengers.find(passenger => {
-      return passenger.id === this.passengerId
-    })
+    return this.passenger
   }
 
 }
