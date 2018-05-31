@@ -7,7 +7,7 @@ class Trip{
   constructor(driver, passenger){
     this.id = ++tripId
     this.passenger = passenger
-  //  this.driverId = driver.id
+    this.driverId = driver.id
     //  this.passengerId = passenger.id
     if(driver){
       // this.driverId = driver.id
