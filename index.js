@@ -16,9 +16,7 @@ class Trip{
       this.passengerId = passenger.id
       passenger.tripId = this.id
     }
-    //  this.driver = driver
-    this.driverId = driver.id
-    this.tripId = this.id
+    
     // this.passenger = function() {
     //    return store.passengers.find(function(passenger){
     //      return  passenger.tripId === this.id
