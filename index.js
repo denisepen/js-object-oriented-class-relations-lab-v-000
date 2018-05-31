@@ -8,7 +8,7 @@ class Trip{
     this.id = ++tripId
    this.passenger = passenger
     this.passengerId = passenger.id
-     this.driver = driver
+    //  this.driver = driver
     this.driverId = driver.id
     this.tripId = this.id
     // this.passenger = function() {
