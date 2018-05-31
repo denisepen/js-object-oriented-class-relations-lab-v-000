@@ -18,6 +18,10 @@ class Trip{
     }
     store.trips.push(this)
   }
+
+  driver(){
+    return driver
+  }
   //   this.driver = function(driver) {
   //    driver.id = this.driverId
   // }
