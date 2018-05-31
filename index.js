@@ -11,8 +11,8 @@ class Trip{
     // this.driver = driver
     this.driverId = driver.id
     this.tripId = this.id
-  }
-    // 
+  
+    //
 
     // this.passenger = function() {
     //    return store.passengers.find(function(passenger){
