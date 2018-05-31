@@ -11,8 +11,8 @@ class Trip{
     // this.driver = driver
     this.driverId = driver.id
     this.tripId = this.id
-    setDriver(driver){
-    this.driverId = driver.id  
+    // setDriver(driver){
+    // this.driverId = driver.id
     }
 
     // this.passenger = function() {
