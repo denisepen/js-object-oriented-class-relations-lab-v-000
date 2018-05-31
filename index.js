@@ -50,9 +50,9 @@ passenger(){
         }
 
       passengers(){
-        return store.passengers.find(passenger => {
-          return passenger.id === this.passengerId
-          })
+        return this.trips().map(trip => {
+          return trip.passenger()
+        })
         }
 }
 
