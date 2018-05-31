@@ -21,9 +21,9 @@ class Trip{
 
     store.trips.push(this)
   }
-    this.driver = function(driver) {
-     driver.id = this.driverId
-  }
+  //   this.driver = function(driver) {
+  //    driver.id = this.driverId
+  // }
 
   // this.driver = function() {
   //    return store.drivers.find(function(driver){
