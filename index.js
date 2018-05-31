@@ -10,8 +10,8 @@ class Trip{
   //  this.driverId = driver.id
     //  this.passengerId = passenger.id
     if(driver){
-      this.driverId = driver.id
-      // driver.tripId = this.id
+      // this.driverId = driver.id
+      driver.tripId = this.id
     }
     if(passenger){
       this.passengerId = passenger.id
