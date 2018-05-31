@@ -9,14 +9,14 @@ class Trip{
    this.passenger = passenger
     // this.passengerId = passenger.id
     if(driver){
-      this.driverID = driver.id
+      this.driverId = driver.id
       driver.tripId = this.id
     }
     if(passenger){
       this.passengerId = passenger.id
       passenger.tripId = this.id
     }
-    
+
     // this.passenger = function() {
     //    return store.passengers.find(function(passenger){
     //      return  passenger.tripId === this.id
