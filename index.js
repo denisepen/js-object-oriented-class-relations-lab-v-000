@@ -23,7 +23,7 @@ class Trip{
   }
 
   driver(){
-    return return this.driver
+    return this.driver
   }
 
   passenger(){
