@@ -10,6 +10,7 @@ class Trip{
     // this.passengerId = passenger.id
     if(driver){
       this.driverID = driver.id
+      driver.tripId = this.id
     }
     if(passenger){
       this.passengerId = passenger.id
