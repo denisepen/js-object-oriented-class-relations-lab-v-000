@@ -6,7 +6,7 @@ let tripId = 0
 class Trip{
   constructor(driver, passenger){
     this.id = tripId++
-    
+
     if(driver){
      this.driverId = driver.id
       driver.tripId = this.id
@@ -19,7 +19,7 @@ class Trip{
 
     store.trips.push(this)
   }
-  
+
   driver(){
     return store.drivers.find(driver => {
       return driver.id === this.driverId
@@ -38,7 +38,7 @@ passenger(){
 
   constructor(name){
 
-    this.id = ++driverId
+    this.id = driverId++
     this.name = name
     store.drivers.push(this)
         }
