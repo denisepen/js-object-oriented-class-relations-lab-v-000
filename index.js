@@ -11,7 +11,7 @@ class Trip{
     // this.driver = driver
     this.driverId = driver.id
     this.tripId = this.id
-  
+
     //
 
     // this.passenger = function() {
@@ -20,11 +20,11 @@ class Trip{
     //    })
     //  }
 
-     this.driver = function() {
-       return store.drivers.find(function(driver){
-         return this.id === driver.trip.id
-       })
-     }
+    //  this.driver = function() {
+    //    return store.drivers.find(function(driver){
+    //      return this.id === driver.trip.id
+    //    })
+    //  }
 
     store.trips.push(this)
   }
