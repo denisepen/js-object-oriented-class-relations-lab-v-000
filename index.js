@@ -19,9 +19,9 @@ class Trip{
     store.trips.push(this)
   }
 
-  // this.driver = function(driver){
-  //   return driver
-  // }
+  this.driver = function(driver){
+    return driver
+  }
   //   this.driver = function(driver) {
   //    driver.id = this.driverId
   // }
