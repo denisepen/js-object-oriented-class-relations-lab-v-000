@@ -22,8 +22,13 @@ class Trip{
     store.trips.push(this)
   }
 
+  // driver(){
+  //   return this.driver
+  // }
   driver(){
-    return this.driver
+    return store.drivers.find(driver => {
+      return driver.id = this.driverId
+    })
   }
 
   passenger(){
