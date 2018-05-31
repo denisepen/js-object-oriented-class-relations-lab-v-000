@@ -22,16 +22,10 @@ class Trip{
   driver(){
     return this.driver
   }
-  //   this.driver = function(driver) {
-  //    driver.id = this.driverId
-  // }
 
-  // this.driver = function() {
-  //    return store.drivers.find(function(driver){
-  //      return this.id === driver.trip.id
-  //    })
-  //  }
-
+  passenger(){
+    return this.passenger
+  }
 
 }
 
